@@ -18,22 +18,62 @@
                     <li><a href="autor.html">Autor</a></li>
             </ul>
         </nav>
+    </header>
         <main>
-            <article>
-                <h2>Assunto</h2>
-            </article>
-            <section>
-                <p>A Segurytek é uma empresa de segurança eletrônica que está no mercado desde 2018,<br> atua principalmete no máximo de Baturité<br> prestando serviços também em cidades da região metropolitana de Fortaleza.<br> Tem foco em serviços de instalação de câmeras, cercas elétricas, portões automáticos,<br> interfones, vídeos porteiros, travas de segurança, entre outros...<br> além da venda de produtos referentes a segurança eletrônica.</p>
-           <br>
-           <br>
-           <br>
-            </section>
+            <form>
+            <p><b>cadastro de usuário</b></p>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="birthdate">Data de nascimento</label>
+            <input type="date" id="birthdate" name="birthdate"><br>
+
+            <input type="submit" value="Enviar"
+            </form>
+
+
+            <hr>
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>    Telefone</th>
+                    <th>Data de nascimento</th>
+                    <th>Editar</th>
+                    <th>Apagar</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ana Lima</td>
+                    <td>analima@exemplo.com</td>
+                    <td>(85) 11111-1111</td>
+                    <td>12/12/1968</td>
+                    <td><button class="edit-btn">Editar</button></td>
+                    <td><button class="delete-btn">Apagar</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>José Castro</td>
+                    <td>jcastro@exemplo.com</td>
+                    <td>(85) 11111-2222</td>
+                    <td>06/06/1963</td>
+                    <td><button class="edit-btn">Editar</button></td>
+                    <td><button class="delete-btn">Apagar</button></td>
+                </tr>
+
+            </table>
+                
         </main>
-        <footer>
-            <p><b>Seguritek - Segurança Eletrônica</b></p>
-            <p> Audenira Castro</p>
-            <a href="autor.html"> Sobre o autor</a>
-        </footer>
+        
     </header>
 
 
