@@ -23,8 +23,11 @@
     <input type="text" id="modelo" name="Modelo" required>
     <br>
     <label for="marca">Marca</label>
-    <select id="intelbras" name="Intelbras">
-        <option value="Resolução 360x360"></option>
+    <select id="marca" name="marca">
+        <option value="intelbras"></option>
+        <option value="intelbras">Intelbras</option>
+        <option value="giga">Giga</option>
+        <option value="hikvision">Hilkvision</option>
     </select>  
     <br>
     <label for="cor">Cor:</label>
@@ -33,41 +36,46 @@
     <label for="preco">Preço:</label>
     <input type="text" id="preco" name="preco" required>
     <br>
+    <label for="interna">Interna</label>
+    <input type="radio" id="interna" name="interna" required>
+    <br>
+    <label for="externa">Externa:</label>
+    <input type="radio" id="externa" name="externa" required>
+    <br>
     <input type="submit" value="Cadastrar">
 </form>
 
 <hr>
-
-<table>
+<table style="width: 70%;"
     <tr>
     <th>ID</th>
     <th>Marca</th>
     <th>Modelo</th>
     <th>Resolução</th>
-    <th>Cor</th>
+        <th>Cor</th>
     <th>Preço</th>
     <th>Editar</th>
     <th>Apagar</th>
 </tr>
 
 <tr>
-    <th>ID</th>
-    <th>Marca</th>
-    <th>Modelo</th>
-    <th>Resolução</th>
-    <th>Cor</th>
-    <th>Preço</th>
+    <th>1</th>
+    <th>Intelbras</th>
+    <th>Bullet-VHG 1120 B</th>
+    <th>720P</th>
+      <th>Branca</th>    
+    <th>R$ 172,20</th>
     <th>Editar</th>
     <th>Apagar</th>
 </tr>
 
 <tr>
-    <th>ID</th>
-    <th>Marca</th>
-    <th>Modelo</th>
-    <th>Resolução</th>
-    <th>Cor</th>
-    <th>Preço</th>
+    <th>2</th>
+    <th>Hikvision</th>
+    <th>Colurvu - DS-2CE70DF0T-PF 2,8mm</th>
+    <th>1080P</th>
+    <th>Branca</th>
+    <th>R$ 210,00</th>
     <th>Editar</th>
     <th>Apagar</th>
 </tr>
